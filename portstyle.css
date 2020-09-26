@@ -203,32 +203,52 @@ p{
 
 
 #first{
-    border-left: 8px solid;
+    border-left: 5px solid;
     border-image: linear-gradient(lightsalmon, rgb(255, 38, 0));
     border-image-slice: 1;
     border-right: 5px solid;
     border-image: linear-gradient(lightsalmon,  rgb(255, 38, 0));
     border-image-slice: 1;
+    border-top: 2px solid;
+    border-image: linear-gradient(lightsalmon,  rgb(255, 38, 0));
+    border-image-slice: 1;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(rgb(255, 38, 0),lightsalmon);
+    border-image-slice: 1;
+
 }
 
 #second{
 
-    border-left: 7px solid;
+    border-left: 5px solid;
     border-image: linear-gradient(rgb(0, 26, 255), rgb(0, 255, 255));
     border-image-slice: 1;
     border-right: 5px solid;
      border-image: linear-gradient(rgb(0, 26, 255), rgb(0, 255, 255));
     border-image-slice: 1;
+    border-top: 2px solid;
+    border-image: linear-gradient(rgb(0, 26, 255), rgb(0, 255, 255));
+    border-image-slice: 1;
+    border-bottom: 2px solid;
+    border-image: linear-gradient( rgb(0, 255, 255),rgb(0, 26, 255));
+    border-image-slice: 1;
+
 
 }
 
 #third{
 
-    border-left: 7px solid;
-    border-image: linear-gradient( rgb(255, 145, 0), rgb(0, 255, 255));
+    border-left: 5px solid;
+    border-image: linear-gradient( rgb(255, 0, 0), rgb(0, 255, 255));
     border-image-slice: 1;
-    border-right: 8px solid;
-    border-image: linear-gradient( rgb(255, 145, 0), rgb(0, 255, 255));
+    border-right: 5px solid;
+    border-image: linear-gradient( rgb(255, 0, 0), rgb(0, 255, 255));
+    border-image-slice: 1;
+    border-top: 2px solid;
+    border-image: linear-gradient( rgb(255, 0, 0), rgb(0, 255, 255));
+    border-image-slice: 1;
+    border-bottom: 2px solid;
+    border-image: linear-gradient( rgb(0, 255, 255),rgb(255, 0, 0));
     border-image-slice: 1;
 
 }
